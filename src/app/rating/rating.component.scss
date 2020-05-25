@@ -1,0 +1,10 @@
+.rating {
+  span {
+    &:hover {
+      cursor: pointer;
+    }
+    &.active {
+      color: red;
+    }
+  }
+}
